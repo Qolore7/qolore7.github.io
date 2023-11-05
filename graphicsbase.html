@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="./css/style.css" as="style" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/logo-icon.webp">
+    <link rel="canonical" href="https://vivanewvegas.moddinglinked.com">
+    <script src="https://kit.fontawesome.com/baff4f2fd4.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+    <title>Graphics Base | Blue Moon</title>
+    <meta name="keywords" content="Fallout New Vegas, FNV, Fallout NV, Fallout, New Vegas, Guide, Mod, Mods, Modding Guide, Bethesda, Stable, Performance, Fix, Help, DXVK, Fast, Easy, Tutorial, Mod Organizer, Nexus, Modern, Graphics">
+    <meta name="description" content="Essential mods that fix bugs, improve performance and add quality of life features.">
+    <meta http-equiv='content-language' content='en-us'>
+    <meta name="twitter:card" value="summary_large_image">
+    <meta property="og:site_name" content="Github">
+    <meta property="og:title" content="Blue Moon">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://vivanewvegas.moddinglinked.com">
+    <meta property="og:image" content="https://vivanewvegas.moddinglinked.com/img/card.webp">
+    <meta property="og:description" content="Essential mods that fix bugs, improve performance and add quality of life features.">
+</head>
+
+<body>
+
+    <!-- Titlebar -->
+    <div class="titlecontainer">
+        <div id="sideButton" onclick="toggleNav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="./img/logo.webp" alt="Logo">
+        <a href="./index.html"><b>Blue Moon</b></a>
+
+    </div>
+
+    <!-- Left Sidebar -->
+    <div id="sidenavLeft">
+        <div>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./intro.html">Introduction</a>
+                </li>
+                <li>
+                    <a href="./setup.html">Setup</a>
+                </li>
+                <li>
+                    <a href="./mo2.html">MO2</a>
+                </li>
+                <li>
+                    <a href="./utilities.html">Utilities</a>
+                </li>
+                <li>
+                    <a href="./plugins.html">NVSE Plugins</a>
+                </li>
+                <li>
+                    <a href="./tweaks.html">Stewie's Tweaks</a>
+                </li>
+                <li>
+                    <a href="./config.html">Configuration</a>
+                </li>
+                <li>
+                    <a href="./bugfix.html">Bug Fixes</a>
+                </li>
+                <li>
+                    <a href="./userinterface.html">User Interface</a>
+                </li>
+                <li>
+                    <a href="./animations.html">Animations</a>
+                </li>
+                <li>
+                    <a href="./texturesmain.html" class="active">Graphics Base</a>
+                </li>
+                <li>
+                    <a href="./lodresources.html">LOD Resources</a>
+                </li>
+                <li>
+                    <a href="./landscapetextures.html">Landscape</a>
+                </li>
+                <li>
+                    <a href="./weapontextures.html">Weapons</a>
+                </li>
+                <li>
+                    <a href="./armortextures.html">Armor & Clothing</a>
+                </li>
+                <li>
+                    <a href="./itemtextures.html">Items</a>
+                </li>
+                <li>
+                    <a href="./misctextures.html">Miscellaneous</a>
+                </li>
+                <li>
+                    <a href="./effecttextures.html">Effects</a>
+                </li>
+                <li>
+                    <a href="./creaturetextures.html">Creatures</a>
+                </li>
+                <li>
+                    <a href="./charactertextures.html">Characters</a>
+                </li>
+                <li>
+                    <a href="./lighting.html">Lighting</a>
+                </li>
+                <li>
+                    <a href="./nvr.html">NVR</a>
+                </li>
+                <li>
+                    <a href="./gameplay.html">Gameplay</a>
+                </li>
+                <li>
+                    <a href="./lateloaders.html">Late-Loaders</a>
+                </li>
+
+            </ul>
+            <hr>
+            <ul>
+                <li>
+                    <a href="./changelog.html">Changelog</a>
+                </li>
+                <li>
+                    <a href="./faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="./resources.html">Resources</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div id="footer">
+            <ul>
+                <li>
+                    <a href="https://discord.gg/VXvZWsxzEG" target="_blank">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <i class="fab fa-patreon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <i class="fab fa-paypal"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="section">
+            <h1>Graphics Base</h1>
+            <h2>Creating a Separator in MO2</h2>
+            <ol>
+                <li>Right-click the empty space in the left pane of MO2 and select <strong>Create Separator</strong>.</li>
+                <li>Name the separator <strong>Graphics Base</strong>.</li>
+            </ol>
+
+            <blockquote>
+                IMPORTANT: When installing graphics mods, the guide will generally suggest the highest-quality option that still retains good performance. If you have a weaker PC and/or want to squeeze maximum performance out of your rig, you can select the lower-quality options. However, it is NOT recommended to select higher quality options than what the guide recommends. These options usually have a minor visual upgrade compared to their performance cost and are not worth the lower performance and (potentially) stability.
+            </blockquote>
+            
+            <!-- NMCs Texture Pack -->
+            <p>
+                <a class="link" href="https://www.nexusmods.com/newvegas/mods/43135" target="_blank">
+                    <h2 id="NMCs">NMCs Texture Pack</h2>
+                </a>
+            </p>
+            <h2 class="install">Installation instructions:</h2>
+            <ol>
+                <li><b>Main File - NMCs Textures NV MEDIUM Pack Part 1 of 2 FOR NMM</b></li>
+                <li><b>Main File - NMCs Textures NV MEDIUM Pack Part 2 of 2 FOR NMM</b></li>
+                <li><b>Update Files - NMC New Vegas Patch for ALL Sized packs</b></li>
+                <li><b>Update Files - Naval Chair Fix</b></li>
+                <li>Once the files have been installed, double-click on the mod in the left pane of MO2 (specifically the <strong>Part 2</strong> file if you did not merge them)</li>
+                <li>In the <strong>Filetree</strong> tab, right-click on the <strong>Textures\interfance</strong> folder and select <strong>Delete</strong></li>
+                <li>Repeat for the <strong>Textures\landscape</strong> folder</li>
+            </ol>
+            Large-scale retextures of many major objects across the game, ranging from architecture to furniture.
+
+            <!-- Poco Bueno -->
+            <p>
+                <a class="link" href="https://www.nexusmods.com/newvegas/mods/42028" target="_blank">
+                    <h2 id="pocoBueno">Poco Bueno</h2>
+                </a>
+            </p>
+            <h2 class="install">Installation instructions:</h2>
+            <ol>
+                <li><b>Main File - PocoBuenoTexturePackV5</b></li>
+                <li><b>Optional File - PocoBueno Skeleton Transparency Fix</b></li>
+                <li>Once the files have been installed, double-click on the mod in the left pane of MO2</li>
+                <li>In the <strong>Filetree</strong> tab, right-click on <strong>textures\architecture\goodsprings\nv_watertank.dds</strong> and select <strong>Delete</strong></li>
+                <li>Repeat for <strong>textures\architecture\goodsprings\nv_watertank_n.dds</strong></li>
+            </ol>
+            Large-scale retexture similar to NMCs.
+            
+            <!-- 6ixes -->
+            <p>
+                <a class="link" href="https://www.nexusmods.com/newvegas/mods/78608" target="_blank">
+                    <h2 id="6ixes">6IXES Clutter Texture Pack</h2>
+                </a>
+            </p>
+            <h2 class="install">Installation instructions:</h2>
+            <ul>
+                <li><b>Main File - 6IXES Clutter Texture Pack NV Edition</b></li>
+            </ul>
+            Re-texture of many objects with a focus on smaller clutter items.
+
+            <!-- MGs Neat Clutter -->
+            <p>
+                <a class="link" href="https://www.nexusmods.com/newvegas/mods/42551" target="_blank">
+                    <h2 id="MGs">MGs Neat Clutter Retextures</h2>
+                </a>
+            </p>
+            <h2 class="install">Installation instructions:</h2>
+            <ul>
+                <li><b>Main File - MGs NCR Pack 7</b></li>
+                <li><b>Main File - BB Cigs</b></li>
+                <li><b>Main File - Common globe</b></li>
+            </ul>
+            High-quality of many objects overlooked by other texture packs.
+
+            <!-- Superpele -->
+            <p>
+                <a class="link" href="https://drive.google.com/file/d/1Mm-rZMjwpCIqeX2xFAsAXZxOWREIQhUM/view?pli=1" target="_blank">
+                    <h2 id="superpele">Superpele's Disordered Texture Pack</h2>
+                </a>
+            </p>
+            <h2 class="install">Installation instructions:</h2>
+            <ol>
+                <li>Download the file through Google Drive and install normally through MO2</li>
+                <li>Once the files have been installed, double-click on the mod in the left pane of MO2</li>
+                <li>In the <strong>Filetree</strong> tab, right-click on the <strong>textures\clutter\questitems</strong> folder and select <strong>Delete</strong></li>
+            </ol>
+            Stylized retextures of a wide range of objects across the game.
+
+        </div>
+
+        <!-- Arrows -->
+        <div>
+            <hr>
+            <a href="./animations.html" id="previous" rel="prev" class="navigationArrow"><img class="left mirror" src="./img/arrow.webp" alt="Back Arrow"><span class="arrowText left">Animations</span></a>
+            <a href="./lodresources.html" id="next" rel="next" class="navigationArrow"><img class="right" src="./img/arrow.webp" alt="Forward Arrow"><span class="arrowText right">LOD Resources</span></a>
+        </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div id="sidenavRight">
+        <ul>
+            <li><a href="#NMCs">NMCs Texture Pack</a></li>
+            <li><a href="#pocoBueno">Poco Bueno</a></li>
+            <li><a href="#6ixes">6IXES Clutter</a></li>
+            <li><a href="#MGs">MGs Clutter</a></li>
+            <li><a href="#superpele">Superpele's Texture Pack</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
