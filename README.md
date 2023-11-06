@@ -1,4 +1,4 @@
-# [Blue Moon](https://vivanewvegas.moddinglinked.com/)
+# [Blue Moon](https://qolore7.github.io/bluemoon/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-informational.svg)](https://github.com/h5bp/html5-boilerplate/blob/master/LICENSE.txt)
 
