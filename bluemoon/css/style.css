@@ -173,7 +173,7 @@ img {
      -moz-user-select: none;
           user-select: none;
   color: rgb(220, 220, 220);
-  font-size: 2.2em;
+  font-size: 2.7em;
   line-height: 2em;
   text-decoration: none;
   display: flex;
@@ -185,7 +185,7 @@ img {
 
 .welcomeContent h1 {
   color: #DCDCDC;
-  font-size: 1.1em;
+  font-size: 1.3em;
   word-wrap: break-word;
   text-align: center;
   margin-top: auto;
@@ -254,6 +254,7 @@ img {
   margin-top: auto;
   margin-bottom: auto;
   font-size: 2em;
+
 }
 
 .titlecontainer a:hover {
